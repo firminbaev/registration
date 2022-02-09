@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: black;
 }
@@ -5,7 +8,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     margin-top: 160px;
 }
 
@@ -14,6 +16,7 @@ body{
     border-radius: 4px;
     width: 640px;
     height: 264px;
+    padding: 40px 16px 48px 16px;
 }
 .avtorizaciya{
     font-weight: 600;
@@ -28,8 +31,6 @@ body{
     font-size: 14px;
     line-height: 18px;
     color: #000000;
-    margin-left: 16px;
-    margin-top: 16px;
 }
 input{
     width: 608px;
@@ -37,8 +38,8 @@ input{
     border: 0.5px solid #DADADA;
     box-sizing: border-box;
     border-radius: 4px;
-    margin-left: 16px;
     margin-top: 8px;
+    padding-left: 16px;
 }
 
 a{
